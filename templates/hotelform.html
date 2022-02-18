@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title> Hotel Form </title>
+  </head>
+<body>
+  <h2> <u> Hotel Form </u> </h2>
+  <form action = "https://voyageapis.reethamg.repl.co/hotelout" method="GET">
+    <p>
+      {{form.getHotels.label}} <br>
+      {{form.getHotels(size=30)}}
+    </p>
+    
+    <p>
+      {{form.getPlace.label}} <br>
+      {{form.getPlace(size=30)}} <br>
+    </p>
+
+    <p>
+      {{form.submit(size=30)}}
+    </p>
+    
+    
+  </form>
+</body>
+</html>
