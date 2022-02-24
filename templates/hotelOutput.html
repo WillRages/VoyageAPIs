@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <body>
-    {{Hotels}}
+      <h1>Hotels:</h1>
+      {% for hotel in Hotels %}
+          <p>{{hotel}}</p>
+      {% endfor %}
   </body>
 </html>
