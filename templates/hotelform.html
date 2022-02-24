@@ -5,10 +5,9 @@
   </head>
 <body>
   <h2> <u> Hotel Form </u> </h2>
-  <form action = "https://voyageapis.reethamg.repl.co/hotelout" method="GET">
+  <form action = "/hotelout" method="POST">
     <p>
-      {{form.getHotels.label}} <br>
-      {{form.getHotels(size=30)}}
+      {{form.getHotels.label}}{{form.getHotels(size=30)}}
     </p>
     
     <p>
